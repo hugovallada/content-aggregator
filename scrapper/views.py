@@ -2,4 +2,4 @@ from django.shortcuts import render
 
 
 def index(request):
-    return 'Hello World!!'
+    return render(request, 'index.html')
