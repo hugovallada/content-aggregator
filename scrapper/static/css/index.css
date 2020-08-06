@@ -3,7 +3,11 @@ body {
 }
 
 h1{
-    color: red;
+    color: #f8ff29;
+}
+
+h2 {
+    color: blue;
 }
 
 .title{
@@ -12,4 +16,10 @@ h1{
     height: auto;
     text-align: center;
 }
+
+.corpo{
+    background-color: grey;
+}
+
+
 
