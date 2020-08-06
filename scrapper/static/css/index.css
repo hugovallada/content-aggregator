@@ -1,0 +1,25 @@
+body {
+    background-color:grey;
+}
+
+h1{
+    color: #f8ff29;
+}
+
+h2 {
+    color: blue;
+}
+
+.title{
+    font-size: 20;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.corpo{
+    background-color: grey;
+}
+
+
+
