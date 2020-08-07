@@ -1,9 +1,9 @@
 body {
-    background-color:grey;
+    background-color: #fff;
 }
 
 h1{
-    color: #f8ff29;
+    color: #855080;
 }
 
 h2 {
@@ -19,6 +19,12 @@ h2 {
 
 .corpo{
     background-color: grey;
+}
+
+.content-title{
+    size: 35px;
+    color: red;
+    text-align: none;
 }
 
 
