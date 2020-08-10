@@ -18,19 +18,6 @@
         </div>
         <div class="row">
             <div class="col-sm">
-                <a href="https://realpython.com">
-                    <h2>Real Python</h2>
-                </a>
-                {% for title, content in contents_real_python.items %}
-                <div>
-                    <a href="{{content}}">
-                        <p class="content-title">{{title}}</p>
-                    </a>
-                </div>
-                <br />
-                {% endfor %}
-            </div>
-            <div class="col-sm">
                 <a href="https://forum.manjaro.org/c/announcements/stable-updates">
                     <h2>Manjaro Stable Updates</h2>
                 </a>
@@ -44,53 +31,32 @@
                 {% endfor %}
             </div>
             <div class="col-sm">
-                <h2>Lorem Ipsum (Title)</h2>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
+                <a href="https://realpython.com">
+                    <h2>Real Python</h2>
+                </a>
+                {% for title, content in contents_real_python.items %}
+                <div>
+                    <a href="{{content}}">
+                        <p class="content-title">{{title}}</p>
+                    </a>
+                </div>
+                <br />
+                {% endfor %}
+            </div>
+            <div class="col-sm">
+                <a href="https://pt.stackoverflow.com/questions/tagged/python">
+                    <h2>Stack Overflow - Python</h2>
+                </a>
+                {% for title, content in contents_stackoverflow.items %}
+                <div>
+                    <a href="{{content}}">
+                        <p class="content-title">{{title}}</p>
+                    </a>
+                </div>
+                <br/>
+                {% endfor %}
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm">
-                <h2>Lorem Ipsum (Title)</h2>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-            </div>
-            <div class="col-sm">
-                <h2>Lorem Ipsum (Title)</h2>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-            </div>
-            <div class="col-sm">
-                <h2>Lorem Ipsum (Title)</h2>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-                <h4>Lorem Ipsum</h4>
-            </div>
-        </div>
-
     </div>
 
     <!-- Scripts -->

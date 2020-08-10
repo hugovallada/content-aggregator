@@ -38,3 +38,19 @@ def scrap_manjaro_stable_updates() -> Dict[str, str]:
         contents[href[index].getText()] = href[index].get("href")
 
     return contents
+
+
+def scrap_stackoverflow_python() ->Dict[str, str]:
+    contents = {}
+    url = 'https://pt.stackoverflow.com/questions/tagged/python'
+    soup = create_soup(url)
+    href = soup.find_all('a', {'class': 'question-hyperlink'})
+    url_base = 'https://pt.stackoverflow.com/'
+    
+    for index, item in enumerate(href):
+        if index > 2:
+            break
+        print(f'Titulo: {href[index].getText()}  --- Link: {url_base + href[index].get("href")}')
+        contents[href[index].getText()] = url_base + href[index].get("href")
+    
+    return contents
